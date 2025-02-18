@@ -1,0 +1,16 @@
+# robots.txt for hadimoussawi.com
+# Single-Page React Portfolio Configuration
+
+# 1. Allow all search engines to crawl your entire site
+User-agent: *
+Disallow:  # (Empty = allow crawling of all content)
+
+# 2. Optional security: Block non-existent sensitive paths
+# (Safe to include even if these paths don't exist)
+Disallow: /admin          # Block admin interfaces
+Disallow: /wp-admin       # Block WordPress admin (common target)
+Disallow: /dashboard      # Block potential user dashboards
+Disallow: /private        # Block private content sections
+
+# 3. Sitemap declaration (Update when you create sitemap.xml)
+Sitemap: https://hadimoussawi.com/sitemap.xml

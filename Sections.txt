@@ -1,0 +1,43 @@
+1. Hero Section (Introduction)
+Short, impactful introduction with your name and title (Hadi Moussawi Senior Web Developer & Team Leader) give this a text Disappearing Animation.
+Professional photo or avatar.
+Tagline highlighting your expertise (e.g., "Building Scalable Web Solutions & Leading Agile Teams").
+Call-to-Action (CTA) – "View Portfolio" / "Contact Me" / "Download Resume".
+2. About Me
+A brief background: years of experience, technical skills, leadership experience.
+Mention your tech stack (e.g., HTML, CSS, JavaScript, PHP, WordPress, Strapi, etc.).
+Leadership philosophy and team management approach.
+3. Skills & Tech Stack
+Categorized skills:
+Frontend: HTML, CSS, JavaScript, React, etc.
+Backend: PHP, Node.js, Strapi, etc.
+CMS & E-commerce: WordPress, Shopify, Strapi, etc.
+Project Management & Agile: ClickUp, Scrum, team leadership.
+4. Experience & Work History
+List of companies you’ve worked for, roles, and responsibilities.
+Focus on leadership roles and key projects.
+5. Projects & Portfolio
+Show real-world projects with:
+Screenshots or live demos.
+Tech stack used.
+Your role in the project.
+Key achievements and problem-solving examples.
+6. Case Studies (Optional, but Strong Impact)
+In-depth breakdown of how you solved specific challenges in past projects.
+Explain your approach, technologies, and leadership strategies.
+7. Testimonials & Recommendations
+Feedback from team members, clients, or managers.
+Showcase leadership impact and development skills.
+8. Blog / Insights (Optional, but Helps SEO & Thought Leadership)
+Share industry knowledge, coding tips, leadership experiences, Agile methodologies, etc.
+Helps establish authority in the industry.
+9. Certifications & Achievements
+Display relevant certifications (Scrum Master, Google Dev, etc.).
+Highlight hackathons, awards, or community contributions.
+10. Contact & Call-to-Action (CTA)
+Simple form or email for inquiries.
+LinkedIn, GitHub, or social media links.
+A clear CTA like "Let’s Work Together!" or "Hire Me".
+11. Resume (Optional, but Useful)
+Provide a downloadable PDF resume.
+Keep it aligned with your website content.
