@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect } from "react";
 
 // CSS (place in a separate .css file or use CSS-in-JS)
 /*
@@ -23,7 +23,7 @@ class Star {
   draw(ctx) {
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-    ctx.fillStyle = '#FFF';
+    ctx.fillStyle = "#FFF";
     ctx.fill();
   }
 }
@@ -35,7 +35,7 @@ export default function CanvasFloating() {
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext("2d");
 
     const handleResize = () => {
       canvas.width = window.innerWidth;
@@ -45,11 +45,11 @@ export default function CanvasFloating() {
 
     // Initial setup
     handleResize();
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Animation loop
     const animate = () => {
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+      ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       stars.current.forEach((star) => {
@@ -64,7 +64,7 @@ export default function CanvasFloating() {
 
     // Cleanup
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
       cancelAnimationFrame(animationRef.current);
     };
   }, []);
@@ -72,14 +72,14 @@ export default function CanvasFloating() {
   return (
     <canvas
       ref={canvasRef}
-      className='starfield-canvas'
+      className="starfield-canvas"
       style={{
-        position: 'absolute',
+        position: "absolute",
         top: 0,
         left: 0,
-        width: '100%',
-        height: '100%',
-        background: '#000',
+        width: "100%",
+        height: "100%",
+        background: "#000",
         zIndex: 1,
       }}
     />
